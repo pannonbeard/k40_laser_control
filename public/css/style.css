@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #2c3e50;
+  color: white;
+  max-height: 480px;
+}
+.control-panel {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.controls {
+  display: flex;
+  gap: 1rem;
+}
+button {
+  font-size: 24px;
+  padding: 20px;
+  margin: 5px;
+  min-width: 80px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:active {
+  background: #2980b9;
+}
